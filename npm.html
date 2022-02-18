@@ -6,9 +6,9 @@
     <title>npm | 前端技术分享</title>
     <meta name="description" content="A VitePress site">
     <link rel="stylesheet" href="/w20220218/assets/style.fea2d2e9.css">
-    <link rel="modulepreload" href="/w20220218/assets/Home.407614ea.js">
-    <link rel="modulepreload" href="/w20220218/assets/app.1fbaa3e7.js">
-    <link rel="modulepreload" href="/w20220218/assets/npm.md.254e5090.lean.js">
+    <link rel="modulepreload" href="/w20220218/assets/Home.6aaa7bf4.js">
+    <link rel="modulepreload" href="/w20220218/assets/app.b6032d24.js">
+    <link rel="modulepreload" href="/w20220218/assets/npm.md.34f671d0.lean.js">
     
     <meta name="twitter:title" content="npm | 前端技术分享">
   <meta property="og:title" content="npm | 前端技术分享">
@@ -60,8 +60,8 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token string">&#39;abc&#39;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre></div><p>然后执行它，这里我们已经在 package.json 文件中指定好了脚本 <code>start</code> 为 <code>node index.js</code>，所以我们直接执行 <code>npm start</code> 即可。</p><p><img src="/w20220218/assets/6.69c1cd03.png" alt=""></p><h2 id="私有包命名" tabindex="-1">私有包命名 <a class="header-anchor" href="#私有包命名" aria-hidden="true">#</a></h2><p>我们把所有私有包的命名都加个前缀 <code>@dbsec</code>，通过配置文件控制带有 <code>@dbsec</code> 前缀的包仅会上传到私服，也只有在私服里可以下载到。</p><h2 id="对于-npm-包源代码管理（被否决）" tabindex="-1">对于 NPM 包源代码管理（被否决） <a class="header-anchor" href="#对于-npm-包源代码管理（被否决）" aria-hidden="true">#</a></h2><p>建议使用 Git。</p><ul><li>PR 模式</li><li>开发者提交 PR</li><li>审核人合并 PR，维护正式版本</li><li>提交发版流程</li></ul><h2 id="整体管理流程" tabindex="-1">整体管理流程 <a class="header-anchor" href="#整体管理流程" aria-hidden="true">#</a></h2><h3 id="源代码" tabindex="-1">源代码 <a class="header-anchor" href="#源代码" aria-hidden="true">#</a></h3><ul><li>申请 SVN 仓库权限</li><li>提交代码</li></ul><h3 id="打包" tabindex="-1">打包 <a class="header-anchor" href="#打包" aria-hidden="true">#</a></h3><ul><li>Jenkins 配置任务</li></ul><h3 id="nexus-仓库" tabindex="-1">Nexus 仓库 <a class="header-anchor" href="#nexus-仓库" aria-hidden="true">#</a></h3><ul><li>release 仓库（少数人有权限，前期可手动处理，后期可安排工具）</li><li>beta 仓库</li></ul><p><img src="/w20220218/assets/7.d375c649.png" alt=""></p></div></div><footer class="page-footer" data-v-05070b2b data-v-4f6b8e78><div class="edit" data-v-4f6b8e78><div class="edit-link" data-v-4f6b8e78 data-v-dc577608><!----></div></div><div class="updated" data-v-4f6b8e78><!----></div></footer><!----><!--[--><!--]--></div></main></div><!----><!--]--></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"element-plus.md\":\"a92acc60\",\"index.md\":\"d2306901\",\"monorepo.md\":\"e723c968\",\"npm.md\":\"254e5090\",\"typescript.md\":\"42bf2078\",\"vue3_composition-api.md\":\"971b1528\",\"vue3_index.md\":\"1525704f\"}")</script>
-    <script type="module" async src="/w20220218/assets/app.1fbaa3e7.js"></script>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"element-plus.md\":\"d73f783b\",\"index.md\":\"ce9aec13\",\"monorepo.md\":\"5bf38043\",\"npm.md\":\"34f671d0\",\"typescript.md\":\"f78cf784\",\"vue3_composition-api.md\":\"4000e149\",\"vue3_index.md\":\"6b97aa0f\"}")</script>
+    <script type="module" async src="/w20220218/assets/app.b6032d24.js"></script>
     
   </body>
 </html>
